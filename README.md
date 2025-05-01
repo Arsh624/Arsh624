@@ -33,22 +33,23 @@
 
 ### 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=XplosivePotato&show_icons=true&theme=radical&hide_title=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Arsh624&show_icons=true&theme=radical&hide_title=true"/>
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=XplosivePotato&theme=radical" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arsh624&theme=radical" />
 </p>
 
 ---
 
 ### 🌱 Recent Projects
-- 🖐️ [Gesture-Based Media Control](https://github.com/XplosivePotato/Gesture-Recognition-based-media-control)  
-- 🧠 [Voice-Based Cognitive Decline Detector (MemoTag)](https://github.com/XplosivePotato/MemoTag)  
-- 📝 [LoanSphere: AI Loan Approval Prediction](https://github.com/XplosivePotato/LoanSphere)
+- 🖐️ [Gesture-Based Media Control](https://github.com/Arsh624/Gesture-Recognition-based-media-control)  
+- 🧠 [Voice-Based Cognitive Decline Detector (MemoTag)](https://github.com/Arsh624/MemoTag)  
+- 📝 [LoanSphere: AI Loan Approval Prediction](https://github.com/Arsh624/LoanSphere)
 
 ---
 
 📫 Let’s connect:  
-- Email: arsh9532@colorado.edu  
+- Email: arsh9532@colorado.edu
+- Personal: architshukla546@gmail.com 
 - LinkedIn: [linkedin.com/in/archit-shukla06](https://www.linkedin.com/in/archit-shukla06)  
 - Portfolio: Coming soon...
 
