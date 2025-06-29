@@ -9,15 +9,8 @@
 
 ---
 
-💻 I’m currently a Master’s student at **University of Colorado Boulder**, majoring in Computer Science.  
-🧠 I’m working on projects involving **Deep Learning**, **Computer Vision**, and **Natural Language Processing**.  
-🚀 I love deploying things—recently launched an **AI-powered loan approval predictor**, and working on a voice-based **cognitive decline detector**.  
-🔬 Currently exploring **foundational models for electron tomography**.  
-🛠️ I'm building useful things with **Python, TensorFlow, PyTorch, OpenCV**, and a dash of cloud magic via **GCP & AWS**.
-
----
 # 💫 About Me:
-💻 I’m currently a Master’s student at **University of Colorado Boulder**, majoring in Computer Science.  <br>🧠 I’m working on projects involving **Deep Learning**, **Computer Vision**, and **Natural Language Processing**.  <br>🚀 I love deploying things—recently launched an **AI-powered loan approval predictor**, and working on a voice-based **cognitive decline detector**.  <br>🔬 Currently exploring **foundational models for electron tomography**.  <br>🛠️ I'm building useful things with **Python, TensorFlow, PyTorch, OpenCV**, and a dash of cloud magic via **GCP & AWS**.
+💻 I’m currently a Master’s student at **University of Colorado Boulder**, majoring in Computer Science.  <br>🧠 I’m working on projects involving **Deep Learning**, **Computer Vision**, and **Natural Language Processing**.  <br>🚀 I love deploying things-recently launched an **AI-powered loan approval predictor**, and working on a voice-based **cognitive decline detector**.  <br>🔬 Currently exploring **foundational models for electron tomography**.  <br>🛠️ I'm building useful things with **Python, TensorFlow, PyTorch, OpenCV**, and a dash of cloud magic via **GCP & AWS**.
 
 ### 🌱 Recent Projects
 - 🖐️ [Gesture-Based Media Control](https://github.com/Arsh624/Gesture-Recognition-based-media-control)  
