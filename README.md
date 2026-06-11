@@ -119,14 +119,18 @@ Multi-agent trip planner aggregating group preferences and generating optimized 
 
 ## Stack
 
-## Stack
-
 **Languages** — Python, JavaScript, TypeScript, Go, Java, C++, SQL
+
 **AI Engineering** — LangChain, LangGraph, RAG Pipelines, Multi-Agent Workflows, Vector Search, Embeddings, Context Engineering, LLM Evaluation, Fine-Tuning, AI Observability, Token Optimization, Multimodal AI
+
 **Backend & Systems** — FastAPI, Node.js, Express.js, REST APIs, Microservices, Distributed Systems, Async & Event-Driven Architectures, JWT, OAuth 2.0, RBAC, Linux
+
 **Databases & Data** — PostgreSQL, MongoDB, Redis, DynamoDB, Qdrant, ETL Pipelines, Query Optimization
+
 **Cloud & DevOps** — AWS (EC2, S3, ECS, IAM), GCP, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, Nginx
+
 **Networking & Security** — DNS, HTTP/HTTPS, TCP/IP, TLS/SSL, Load Balancing, CDN, Reverse Proxies, Secure API Design, OWASP Fundamentals, Rate Limiting
+
 **Testing & Observability** — OpenTelemetry, Grafana, Structured Logging, Pytest, Jest, Playwright, Unit, Integration & E2E Testing
 ---
 
