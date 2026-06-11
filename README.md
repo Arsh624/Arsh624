@@ -1,4 +1,20 @@
-# Archit Shukla
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/photo.png" width="320" style="border-radius: 12px"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+*Flew 8,000 miles to make lattes and build agentic AI pipelines with RAG, knowledge graphs,*
+*and whatever dropped on Hacker News this morning.*
+*The latency on my job offers is higher than my p99.*
+*Still deploying.*
+
+*What separates you from the AI you're building?*
+*Student loans.*
+
+</div>
 
 MS Computer Science @ University of Colorado Boulder (GPA 3.9) — graduating May 2026.  
 I build backend systems, distributed AI pipelines, and multi-agent applications.
@@ -41,7 +57,7 @@ Extracts and maps contacts from emails, docs, and meeting notes into a live know
 </td>
 <td width="50%" valign="top">
 
-**[RepoGraph V2](https://github.com/Arsh624)**
+**[RepoGraph V2](https://github.com/Arsh624/Repograph-V2/blob/main/Repograph%20Paper%20.pdf)**
 
 Distributed debugging platform localizing flaky tests across 100K+ LOC repos via graph-based code analysis. 70–85% less inter-service data transfer.
 
@@ -65,7 +81,7 @@ Backend data platform processing 17M+ records. Versioned microservices, Dockeriz
 </td>
 <td width="50%" valign="top">
 
-**[Anomaly Detection Service](https://github.com/Arsh624)**
+**[Anomaly Detection Service](https://github.com/Arsh624/TS-anomaly-detection-pipeline)**
 
 Streaming ML pipeline processing live event data and exposing anomaly predictions through backend APIs in real time.
 
