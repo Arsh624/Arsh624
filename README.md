@@ -26,22 +26,80 @@ SQL ETL pipelines processing 5M+ records/day. Grafana monitoring dashboards, Doc
 
 ## Projects
 
-**[Multi-Agent Relationship Intelligence Platform](https://github.com/Arsh624)** `2026`  
-LangGraph multi-agent workflows for contact extraction, relationship mapping, and contextual retrieval. FastAPI + PostgreSQL + Neo4j + Qdrant, deployed on AWS with Docker. Reduced manual networking effort by 80%.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[RepoGraph V2 — Distributed Debugging Platform](https://github.com/Arsh624)** `2025`  
-Graph-based flaky test localization across 100K+ LOC repositories. REST APIs, static analysis pipelines, 70–85% reduction in inter-service data transfer.
+**[multi-agent-RI-platform](https://github.com/Arsh624)**
 
-**[LoanSphere — Backend Data Processing Platform](https://github.com/Arsh624/LoanSphere)** `2025`  
-SQL pipelines over 17M+ records, FastAPI/Flask/Node.js microservices, Dockerized CI/CD. 30% reduction in validation errors.
+Extracts and maps contacts from emails, docs, and meeting notes into a live knowledge graph of 1,000+ entities. 80% less manual networking effort.
 
-**[Real-Time Anomaly Detection Service](https://github.com/Arsh624)** `2025`  
-Streaming ML pipeline with backend API serving anomaly predictions over live event data.
+![](https://img.shields.io/badge/MULTI--AGENT%20%7C%20RAG%20%7C%20KNOWLEDGE%20GRAPHS-3C3489?style=flat-square&labelColor=3C3489&color=3C3489&logoColor=CECBF6)
 
-**[HackCU AI Travel Planner](https://github.com/Arsh624)** `2024`  
-Multi-agent trip planning system using LLM workflows to aggregate group preferences and generate itineraries.
+`LangGraph` `FastAPI` `Neo4j` `Qdrant` `PostgreSQL` `AWS` `Docker`
 
----
+</td>
+<td width="50%" valign="top">
+
+**[RepoGraph V2](https://github.com/Arsh624)**
+
+Distributed debugging platform localizing flaky tests across 100K+ LOC repos via graph-based code analysis. 70–85% less inter-service data transfer.
+
+![](https://img.shields.io/badge/DISTRIBUTED%20%7C%20STATIC%20ANALYSIS-085041?style=flat-square&color=085041)
+
+`Python` `REST APIs` `Linux` `Graph analysis`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[LoanSphere](https://github.com/Arsh624/LoanSphere)**
+
+Backend data platform processing 17M+ records. Versioned microservices, Dockerized CI/CD, 30% fewer validation errors.
+
+![](https://img.shields.io/badge/DATA%20PIPELINES%20%7C%20MICROSERVICES-0C447C?style=flat-square&color=0C447C)
+
+`FastAPI` `Node.js` `SQL` `Docker` `Flask`
+
+</td>
+<td width="50%" valign="top">
+
+**[Anomaly Detection Service](https://github.com/Arsh624)**
+
+Streaming ML pipeline processing live event data and exposing anomaly predictions through backend APIs in real time.
+
+![](https://img.shields.io/badge/STREAMING%20ML%20%7C%20REAL--TIME-712B13?style=flat-square&color=712B13)
+
+`Python` `ML pipeline` `REST API`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Peleg Lab — GPU Infrastructure** `BioFrontiers`
+
+Parallel AI pipelines on GCP for distributed ML. 35% throughput gain, 40% faster fault diagnosis via GDB/Valgrind.
+
+![](https://img.shields.io/badge/DISTRIBUTED%20ML%20%7C%20GPU%20%7C%20GCP-27500A?style=flat-square&color=27500A)
+
+`Python` `C++` `GCP` `Docker` `GDB`
+
+</td>
+<td width="50%" valign="top">
+
+**[TripSync – AI Multi-Agent Travel Planning System](https://github.com/Arsh624/TripSync)**
+
+Multi-agent trip planner aggregating group preferences and generating optimized itineraries using LLM orchestration.
+
+![](https://img.shields.io/badge/MULTI--AGENT%20%7C%20LLM%20WORKFLOWS-633806?style=flat-square&color=633806)
+
+`LangChain` `Python` `LLM`
+
+</td>
+</tr>
+</table>
 
 ## Stack
 
