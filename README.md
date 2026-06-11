@@ -6,7 +6,7 @@
 
 <div align="center">
 
-*Flew 8,000 miles to make lattes and build agentic AI pipelines with RAG, knowledge graphs,*
+*Flew 8,000 miles to make lattes and build multi agent workflows, knowledge graphs,*
 *and whatever dropped on Hacker News this morning.*
 *The latency on my job offers is higher than my p99.*
 *Still deploying.*
@@ -16,7 +16,7 @@
 
 </div>
 
-MS Computer Science @ University of Colorado Boulder (GPA 3.9) — graduating May 2026.  
+MS Computer Science @ University of Colorado Boulder (GPA 3.9) - Aug-2024 - May 2026.  
 I build backend systems, distributed AI pipelines, and multi-agent applications.
 
 Previously at the **BioFrontiers Institute (Peleg Lab)** where I worked on distributed GPU training infrastructure on GCP.  
