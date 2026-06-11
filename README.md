@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/photo.png" width="320" style="border-radius: 12px"/>
+  <img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/photo.png" width="180" style="border-radius: 12px"/>
 </div>
 
 <br/>
