@@ -46,7 +46,7 @@ SQL ETL pipelines processing 5M+ records/day. Grafana monitoring dashboards, Doc
 <tr>
 <td width="50%" valign="top">
 
-**[multi-agent-RI-platform](https://github.com/Arsh624)**
+**[multi-agent-RI-platform](https://github.com/Arsh624/Kith-Multi-Agent-Relationship-Intelligence-Platform)**
 
 Extracts and maps contacts from emails, docs, and meeting notes into a live knowledge graph of 1,000+ entities. 80% less manual networking effort.
 
