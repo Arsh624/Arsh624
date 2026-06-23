@@ -26,16 +26,16 @@ Currently building a **multi-agent relationship intelligence platform** using La
 
 ## Work
 
-**Graduate Researcher — Peleg Lab, BioFrontiers Institute** `Aug 2025 – Jan 2026`  
+**Graduate Researcher - Peleg Lab, BioFrontiers Institute** `Aug 2025 – Jan 2026`  
 Parallel AI pipelines in Python/C++ on GCP. 35% throughput improvement, 40% faster fault diagnosis via GDB/Valgrind profiling.
 
-**Graduate Teaching Assistant — Lab Systems, CU Boulder** `Jan 2026 – May 2026`  
+**Graduate Teaching Assistant - Lab Systems, CU Boulder** `Jan 2026 – May 2026`  
 Led 3 lab sections (55+ students). Workflow analysis in R to identify bottlenecks in lab operations.
 
-**Software Engineering Intern — CodeClause** `Jun 2024 – Jul 2024`  
+**Software Engineering Intern - CodeClause** `Jun 2024 – Jul 2024`  
 Flask REST APIs, Jenkins CI/CD pipelines, structured logging and observability. 20% backend throughput increase.
 
-**Software Engineer Intern — Adflix Media** `Apr 2023 – Sep 2023`  
+**Software Engineer Intern - Adflix Media** `Apr 2023 – Sep 2023`  
 SQL ETL pipelines processing 5M+ records/day. Grafana monitoring dashboards, Dockerized microservices.
 
 ---
@@ -94,7 +94,7 @@ Streaming ML pipeline processing live event data and exposing anomaly prediction
 <tr>
 <td width="50%" valign="top">
 
-**Peleg Lab — GPU Infrastructure** `BioFrontiers`
+**Peleg Lab - GPU Infrastructure** `BioFrontiers`
 
 Parallel AI pipelines on GCP for distributed ML. 35% throughput gain, 40% faster fault diagnosis via GDB/Valgrind.
 
@@ -119,19 +119,19 @@ Multi-agent trip planner aggregating group preferences and generating optimized 
 
 ## Stack
 
-**Languages** — Python, JavaScript, TypeScript, Go, Java, C++, SQL
+**Languages** - Python, JavaScript, TypeScript, Go, Java, C++, SQL
 
-**AI Engineering** — LangChain, LangGraph, RAG Pipelines, Multi-Agent Workflows, Vector Search, Embeddings, Context Engineering, LLM Evaluation, Fine-Tuning, AI Observability, Token Optimization, Multimodal AI
+**AI Engineering** - LangChain, LangGraph, RAG Pipelines, Multi-Agent Workflows, Vector Search, Embeddings, Context Engineering, LLM Evaluation, Fine-Tuning, AI Observability, Token Optimization, Multimodal AI
 
-**Backend & Systems** — FastAPI, Node.js, Express.js, REST APIs, Microservices, Distributed Systems, Async & Event-Driven Architectures, JWT, OAuth 2.0, RBAC, Linux
+**Backend & Systems** - FastAPI, Node.js, Express.js, REST APIs, Microservices, Distributed Systems, Async & Event-Driven Architectures, JWT, OAuth 2.0, RBAC, Linux
 
-**Databases & Data** — PostgreSQL, MongoDB, Redis, DynamoDB, Qdrant, ETL Pipelines, Query Optimization
+**Databases & Data** - PostgreSQL, MongoDB, Redis, DynamoDB, Qdrant, ETL Pipelines, Query Optimization
 
-**Cloud & DevOps** — AWS (EC2, S3, ECS, IAM), GCP, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, Nginx
+**Cloud & DevOps** - AWS (EC2, S3, ECS, IAM), GCP, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, Nginx
 
-**Networking & Security** — DNS, HTTP/HTTPS, TCP/IP, TLS/SSL, Load Balancing, CDN, Reverse Proxies, Secure API Design, OWASP Fundamentals, Rate Limiting
+**Networking & Security** - DNS, HTTP/HTTPS, TCP/IP, TLS/SSL, Load Balancing, CDN, Reverse Proxies, Secure API Design, OWASP Fundamentals, Rate Limiting
 
-**Testing & Observability** — OpenTelemetry, Grafana, Structured Logging, Pytest, Jest, Playwright, Unit, Integration & E2E Testing
+**Testing & Observability** - OpenTelemetry, Grafana, Structured Logging, Pytest, Jest, Playwright, Unit, Integration & E2E Testing
 
 ---
 
