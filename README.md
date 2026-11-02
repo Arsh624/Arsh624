@@ -148,7 +148,11 @@ Multi-agent trip planner that aggregates group preferences and generates itinera
 
 ---
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Arsh624&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arsh624&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+<div align="center">
 
-![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=Arsh624&theme=github-compact&hide_border=true&area=true)
+<img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/profile-summary-card-output/github_dark/3-stats.svg" width="48%" alt="GitHub stats" />
+<img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="48%" alt="Most used languages by commit" />
+<img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="48%" alt="Repositories per language" />
+<img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/profile-summary-card-output/github_dark/4-productive-time.svg" width="48%" alt="Productive time of day" />
+
+</div>
