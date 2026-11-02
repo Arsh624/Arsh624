@@ -1,42 +1,51 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/photo.png" width="180" style="border-radius: 12px"/>
+
+  <h3>Archit Shukla</h3>
+  <p>AI infrastructure and ML engineer · San Francisco, CA</p>
 </div>
 
 <br/>
 
-<div align="center">
+M.S. Computer Science, University of Colorado Boulder (GPA 3.9, May 2026).  
+I work on LLM inference serving, GPU and distributed systems, and the backend and Kubernetes infrastructure AI products run on.
 
-*Flew 8,000 miles to make lattes and build multi agent workflows, knowledge graphs,*
-*and whatever dropped on Hacker News this morning.*
-*The latency on my job offers is higher than my p99.*
-*Still deploying.*
+**Right now**
+- Software Development Intern at **EcoServants**, building backend features on a PHP/MySQL platform for an environmental nonprofit.
+- Contributing to open source ML infrastructure: **vLLM**, **DSPy**, **prime-rl**, and **LangChain Deep Agents**.
+- Building **Kith**, a multi-agent platform behind a provider-agnostic inference gateway, and **Kube-Op-Lite**, a Kubernetes operator for GPU workloads.
 
-*What separates you from the AI you're building?*
-*Student loans.*
+---
 
-</div>
+## Open Source
 
-MS Computer Science @ University of Colorado Boulder (GPA 3.9) - Aug-2024 - May 2026.  
-I build backend systems, distributed AI pipelines, and multi-agent applications.
+Contributing to the ML infrastructure I use and build on:
 
-Previously at the **BioFrontiers Institute (Peleg Lab)** where I worked on distributed GPU training infrastructure on GCP.  
-Currently building a **multi-agent relationship intelligence platform** using LangGraph, RAG, and knowledge graphs.
+- **[vLLM](https://github.com/vllm-project/vllm)** - LLM serving engine. [Run-batch request validation fix](https://github.com/vllm-project/vllm/pull/65029)
+- **[prime-rl](https://github.com/PrimeIntellect-ai/prime-rl)** - Agentic RL training at scale. [Trainer loss logging fix](https://github.com/PrimeIntellect-ai/prime-rl/pull/4352)
+- **[DSPy](https://github.com/stanfordnlp/dspy)** - Framework for programming language models. [XMLAdapter list handling fix](https://github.com/stanfordnlp/dspy/pull/10761)
+- **[LangChain Deep Agents](https://github.com/langchain-ai/deepagents)** - Agent harness. [CRLF line-ending bug report](https://github.com/langchain-ai/deepagents/issues/7488)
+
+See all of my [pull requests](https://github.com/pulls?q=is%3Apr+author%3AArsh624).
 
 ---
 
 ## Work
 
-**Graduate Researcher - Peleg Lab, BioFrontiers Institute** `Aug 2025 – Jan 2026`  
-Parallel AI pipelines in Python/C++ on GCP. 35% throughput improvement, 40% faster fault diagnosis via GDB/Valgrind profiling.
+**Software Development Intern, EcoServants** `Aug 2026 – Present`  
+Backend features on a PHP/MySQL platform, built with coding agents and gated by mutation testing (13 of 13 injected faults caught across 310+ checks). Proposal autosave with versioned revisions and HMAC-signed unsubscribe tokens.
 
-**Graduate Teaching Assistant - Lab Systems, CU Boulder** `Jan 2026 – May 2026`  
-Led 3 lab sections (55+ students). Workflow analysis in R to identify bottlenecks in lab operations.
+**Graduate Researcher, Peleg Lab (BioFrontiers Institute)** `Aug 2025 – Jan 2026`  
+Distributed AI inference pipelines in Python and multithreaded C++ on GCP GPU clusters. 35% higher evaluation throughput, vLLM on Kubernetes with 300+ sweeps and zero failures, 40% faster fault diagnosis with GDB and Valgrind.
 
-**Software Engineering Intern - CodeClause** `Jun 2024 – Jul 2024`  
-Flask REST APIs, Jenkins CI/CD pipelines, structured logging and observability. 20% backend throughput increase.
+**Graduate Teaching Assistant, Lab Systems, CU Boulder** `Jan 2026 – May 2026`  
+Led 3 lab sections (55+ students). Workflow analysis in R to find bottlenecks in lab operations.
 
-**Software Engineer Intern - Adflix Media** `Apr 2023 – Sep 2023`  
-SQL ETL pipelines processing 5M+ records/day. Grafana monitoring dashboards, Dockerized microservices.
+**Software Engineering Intern, CodeClause** `Jun 2024 – Jul 2024`  
+REST microservices and SQL paths: p95 latency from 310ms to 180ms. Jenkins and GitHub Actions deploys cut release failures from 1 in 6 builds to 1 in 24.
+
+**Software Engineer Intern, Adflix Media** `Apr 2023 – Sep 2023`  
+Kafka and Spark ETL landing 5M+ records a day, with Prometheus and Grafana alerting on throughput and consumer lag.
 
 ---
 
@@ -46,39 +55,52 @@ SQL ETL pipelines processing 5M+ records/day. Grafana monitoring dashboards, Doc
 <tr>
 <td width="50%" valign="top">
 
-**[Kith(Multi-Agent Relationship Intelligence Platform)](https://github.com/Arsh624/Kith-Multi-Agent-Relationship-Intelligence-Platform)**
+**[Kith – Multi-Agent AI Platform](https://github.com/Arsh624/Kith-Multi-Agent-Relationship-Intelligence-Platform)**
 
-Extracts and maps contacts from emails, docs, and meeting notes into a live knowledge graph of 1,000+ entities. 80% less manual networking effort.
+Maps contacts from emails, docs, and meeting notes into a knowledge graph of 1,000+ entities. FastAPI inference gateway over hosted APIs and local vLLM completed 99.2% of agent runs in simulated provider outages.
 
 ![](https://img.shields.io/badge/MULTI--AGENT%20%7C%20RAG%20%7C%20KNOWLEDGE%20GRAPHS-3C3489?style=flat-square&labelColor=3C3489&color=3C3489&logoColor=CECBF6)
 
-`LangGraph` `FastAPI` `Neo4j` `Qdrant` `PostgreSQL` `AWS` `Docker`
+`LangGraph` `FastAPI` `vLLM` `Neo4j` `Qdrant` `Redis`
 
 </td>
 <td width="50%" valign="top">
 
-**[RepoGraph V2](https://github.com/Arsh624/Repograph-V2/blob/main/Repograph%20Paper%20.pdf)**
+**[Kube-Op-Lite](https://github.com/Arsh624/kube-op-lite)**
 
-Distributed debugging platform localizing flaky tests across 100K+ LOC repos via graph-based code analysis. 70–85% less inter-service data transfer.
+Kubernetes operator in Go that restores failed GPU pods to desired state in under 30 seconds, with admission webhooks, a Helm chart, and benchmark regression analysis.
 
-![](https://img.shields.io/badge/DISTRIBUTED%20%7C%20STATIC%20ANALYSIS-085041?style=flat-square&color=085041)
+![](https://img.shields.io/badge/KUBERNETES%20%7C%20GPU%20%7C%20OPERATORS-0C447C?style=flat-square&color=0C447C)
 
-`Python` `REST APIs` `Linux` `Graph analysis`
+`Go` `Kubebuilder` `Helm` `Prometheus`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[LoanSphere](https://github.com/Arsh624/LoanSphere)**
+**[RepoGraph V2](https://github.com/Arsh624/Repograph-V2/blob/main/Repograph%20Paper%20.pdf)**
 
-Backend data platform processing 17M+ records. Versioned microservices, Dockerized CI/CD, 30% fewer validation errors.
+LLM repair for order-dependent flaky tests, guided by a function-state graph and verified across random test orders. With iPFlakies, repair coverage rose from 33% to 56.6% of 537 tests. Written up as a paper.
 
-![](https://img.shields.io/badge/DATA%20PIPELINES%20%7C%20MICROSERVICES-0C447C?style=flat-square&color=0C447C)
+![](https://img.shields.io/badge/DISTRIBUTED%20%7C%20STATIC%20ANALYSIS-085041?style=flat-square&color=085041)
 
-`FastAPI` `Node.js` `SQL` `Docker` `Flask`
+`Python` `C++` `REST APIs` `Linux`
 
 </td>
+<td width="50%" valign="top">
+
+**[Regime-Switching RL for Portfolio Optimization](https://github.com/Arsh624/Regime-switching-RL-model-for-Portfolio-Optimization)**
+
+Three specialist PPO agents routed by an HMM market-regime detector. Sharpe 0.82 to 1.41 and max drawdown 29.6% to 16.2% on 2018–2022 test data.
+
+![](https://img.shields.io/badge/REINFORCEMENT%20LEARNING%20%7C%20FINANCE-27500A?style=flat-square&color=27500A)
+
+`PyTorch` `Stable-Baselines3` `Gymnasium`
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **[Anomaly Detection Service](https://github.com/Arsh624/TS-anomaly-detection-pipeline)**
@@ -90,28 +112,15 @@ Streaming ML pipeline processing live event data and exposing anomaly prediction
 `Python` `ML pipeline` `REST API`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-**Peleg Lab - GPU Infrastructure** `BioFrontiers`
+**[TripSync – AI Multi-Agent Travel Planning](https://github.com/Arsh624/TripSync)**
 
-Parallel AI pipelines on GCP for distributed ML. 35% throughput gain, 40% faster fault diagnosis via GDB/Valgrind.
-
-![](https://img.shields.io/badge/DISTRIBUTED%20ML%20%7C%20GPU%20%7C%20GCP-27500A?style=flat-square&color=27500A)
-
-`Python` `C++` `GCP` `Docker` `GDB`
-
-</td>
-<td width="50%" valign="top">
-
-**[TripSync – AI Multi-Agent Travel Planning System](https://github.com/Arsh624/TripSync)**
-
-Multi-agent trip planner aggregating group preferences and generating optimized itineraries using LLM orchestration.
+Multi-agent trip planner that aggregates group preferences and generates itineraries with LLM orchestration.
 
 ![](https://img.shields.io/badge/MULTI--AGENT%20%7C%20LLM%20WORKFLOWS-633806?style=flat-square&color=633806)
 
-`LangChain` `Python` `LLM`
+`Next.js` `TypeScript` `Supabase` `Gemini`
 
 </td>
 </tr>
@@ -119,27 +128,27 @@ Multi-agent trip planner aggregating group preferences and generating optimized 
 
 ## Stack
 
-**Languages** - Python, JavaScript, TypeScript, Go, Java, C++, SQL
+**Languages** - Python, C++, Go, TypeScript, JavaScript, Java, C, SQL, Bash
 
-**AI Engineering** - LangChain, LangGraph, RAG Pipelines, Multi-Agent Workflows, Vector Search, Embeddings, Context Engineering, LLM Evaluation, Fine-Tuning, AI Observability, Token Optimization, Multimodal AI
+**LLM Inference & ML** - vLLM, PyTorch, Speculative Decoding, Continuous Batching, KV Cache, LangGraph, LangChain, DSPy, RAG Pipelines, LLM-as-Judge Evals, Langfuse, PPO / GRPO
 
-**Backend & Systems** - FastAPI, Node.js, Express.js, REST APIs, Microservices, Distributed Systems, Async & Event-Driven Architectures, JWT, OAuth 2.0, RBAC, Linux
+**Backend & Distributed Systems** - FastAPI, Node.js, REST APIs, Microservices, Apache Kafka, Apache Spark, Multithreaded C++, Async & Event-Driven Architectures
 
-**Databases & Data** - PostgreSQL, MongoDB, Redis, DynamoDB, Qdrant, ETL Pipelines, Query Optimization
+**Databases & Data** - PostgreSQL, MySQL, Redis, Neo4j, Qdrant, MongoDB, DynamoDB, ETL Pipelines, Query Optimization
 
-**Cloud & DevOps** - AWS (EC2, S3, ECS, IAM), GCP, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, Nginx
+**Cloud & Infrastructure** - Kubernetes, Kubebuilder, Helm, Docker, GCP, AWS, Terraform, CI/CD, GitHub Actions, Linux
 
-**Networking & Security** - DNS, HTTP/HTTPS, TCP/IP, TLS/SSL, Load Balancing, CDN, Reverse Proxies, Secure API Design, OWASP Fundamentals, Rate Limiting
-
-**Testing & Observability** - OpenTelemetry, Grafana, Structured Logging, Pytest, Jest, Playwright, Unit, Integration & E2E Testing
+**Observability & Debugging** - Prometheus, Grafana, OpenTelemetry, Nsight Systems, GDB, Valgrind, Pytest, Structured Logging
 
 ---
 
 ## Links
 
-[Portfolio](https://architshukla-portfolio.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/archit-shukla06) &nbsp;·&nbsp; [Email](mailto:arsh9532@colorado.edu)
+[Portfolio](https://architshukla-portfolio.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/archit-shukla06) &nbsp;·&nbsp; [Email](mailto:architshukla546@gmail.com)
 
 ---
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=Arsh624&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=false)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arsh624&theme=ambient_gradient&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+
+![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=Arsh624&theme=github-compact&hide_border=true&area=true)
