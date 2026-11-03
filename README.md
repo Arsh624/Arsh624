@@ -2,7 +2,8 @@
   <img src="https://raw.githubusercontent.com/Arsh624/Arsh624/main/photo.png" width="180" style="border-radius: 12px"/>
 
   <h3>Archit Shukla</h3>
-  <p>AI infrastructure and ML engineer · San Francisco, CA</p>
+  <p><i>Models are the easy part. I build the plumbing that AI runs on (inference serving, GPU infrastructure, agent backends) so it stays fast, cheap, and reliable in production. I sometimes fix other people's plumbing too.</i></p>
+  <p>San Francisco, CA</p>
 </div>
 
 <br/>
