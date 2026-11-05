@@ -13,19 +13,21 @@ I work on LLM inference serving, GPU and distributed systems, and the backend an
 
 **Right now**
 - Software Development Intern at **EcoServants**, building backend features on a PHP/MySQL platform for an environmental nonprofit.
-- Contributing to open source ML infrastructure: **vLLM**, **DSPy**, **prime-rl**, and **LangChain Deep Agents**.
+- Contributing to open source: **sqlfluff** and **prime-rl** (merged), plus **vLLM**, **DSPy**, **docling-core**, and **LangChain Deep Agents**.
 - Building **Kith**, a multi-agent platform behind a provider-agnostic inference gateway, and **Kube-Op-Lite**, a Kubernetes operator for GPU workloads.
 
 ---
 
 ## Open Source
 
-Contributing to the ML infrastructure I use and build on:
+Active in six open source repos, with fixes merged into sqlfluff and prime-rl:
 
+- **[sqlfluff](https://github.com/sqlfluff/sqlfluff)** - SQL linter and formatter. [LT01: don't join two words when removing whitespace](https://github.com/sqlfluff/sqlfluff/pull/9008) (merged)
+- **[prime-rl](https://github.com/PrimeIntellect-ai/prime-rl)** - Agentic RL training at scale. [Skip NUMA binding when the GPU has no sysfs `numa_node`](https://github.com/PrimeIntellect-ai/prime-rl/pull/4202) (merged), [trainer loss logging fix](https://github.com/PrimeIntellect-ai/prime-rl/pull/4352)
 - **[vLLM](https://github.com/vllm-project/vllm)** - LLM serving engine. [Run-batch request validation fix](https://github.com/vllm-project/vllm/pull/65029)
-- **[prime-rl](https://github.com/PrimeIntellect-ai/prime-rl)** - Agentic RL training at scale. [Trainer loss logging fix](https://github.com/PrimeIntellect-ai/prime-rl/pull/4352)
 - **[DSPy](https://github.com/stanfordnlp/dspy)** - Framework for programming language models. [XMLAdapter list handling fix](https://github.com/stanfordnlp/dspy/pull/10761)
-- **[LangChain Deep Agents](https://github.com/langchain-ai/deepagents)** - Agent harness. [CRLF line-ending bug report](https://github.com/langchain-ai/deepagents/issues/7488)
+- **[docling-core](https://github.com/docling-project/docling-core)** - Document processing toolkit. [Keep whitespace-only lines inside a WebVTT cue](https://github.com/docling-project/docling-core/pull/975)
+- **[LangChain Deep Agents](https://github.com/langchain-ai/deepagents)** - Agent harness. Bug reports: [CRLF line endings](https://github.com/langchain-ai/deepagents/issues/7488), [Windows startup failure](https://github.com/langchain-ai/deepagents/issues/7531)
 
 See all of my [pull requests](https://github.com/pulls?q=is%3Apr+author%3AArsh624).
 
