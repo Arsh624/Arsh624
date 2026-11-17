@@ -13,21 +13,22 @@ I work on LLM inference serving, GPU and distributed systems, and the backend an
 
 **Right now**
 - Software Development Intern at **EcoServants**, building backend features on a PHP/MySQL platform for an environmental nonprofit.
-- Contributing to open source: **sqlfluff**, **prime-rl** and **LangChain Deep Agents** (merged), plus **vLLM**, **DSPy**, **docling-core**, and **LangChain Deep Agents**.
+- Contributing to open source, with fixes merged into **vLLM**, **LangChain Deep Agents**, **sqlfluff**, **prime-rl** and **Docling**, plus open work in **DSPy**.
 - Building **Kith**, a multi-agent platform behind a provider-agnostic inference gateway, and **Kube-Op-Lite**, a Kubernetes operator for GPU workloads.
+- New and in progress: **[agentwall](https://github.com/Arsh624/agentwall)**, a local firewall that stops MCP agents from leaking private data, and **[ros2-gpu-pointcloud](https://github.com/Arsh624/ros2-gpu-pointcloud)**, a ROS 2 point-cloud filter with C++, OpenMP and CUDA backends.
 
 ---
 
 ## Open Source
 
-Active in six open source repos, with fixes merged into sqlfluff, prime-rl, and LangChain Deep Agents:
+Active in six open source repos, with fixes merged into five of them (vLLM, LangChain Deep Agents, sqlfluff, prime-rl and Docling):
 
+- **[vLLM](https://github.com/vllm-project/vllm)** - LLM serving engine. [Report the line of a run-batch request rejected by validators](https://github.com/vllm-project/vllm/pull/65029) (merged), [thinking_token_budget fix](https://github.com/vllm-project/vllm/pull/66056), [keep reasoning-token logprobs out of Responses output_text](https://github.com/vllm-project/vllm/pull/67546)
+- **[LangChain Deep Agents](https://github.com/langchain-ai/deepagents)** - Agent harness. [Turn off server log colors so dcode starts on Windows](https://github.com/langchain-ai/deepagents/pull/7591) (merged), [find editor launchers like `code.cmd` on Windows](https://github.com/langchain-ai/deepagents/pull/7642) (merged), [give file tools paths they accept on Windows](https://github.com/langchain-ai/deepagents/pull/7758). Bug report: [CRLF line endings](https://github.com/langchain-ai/deepagents/issues/7488)
 - **[sqlfluff](https://github.com/sqlfluff/sqlfluff)** - SQL linter and formatter. [LT01: don't join two words when removing whitespace](https://github.com/sqlfluff/sqlfluff/pull/9008) (merged), [don't respace SparkSQL and Databricks named parameters](https://github.com/sqlfluff/sqlfluff/pull/9030)
 - **[prime-rl](https://github.com/PrimeIntellect-ai/prime-rl)** - Agentic RL training at scale. [Skip NUMA binding when the GPU has no sysfs `numa_node`](https://github.com/PrimeIntellect-ai/prime-rl/pull/4202) (merged), [trainer loss logging fix](https://github.com/PrimeIntellect-ai/prime-rl/pull/4352)
-- **[vLLM](https://github.com/vllm-project/vllm)** - LLM serving engine. [Run-batch request validation fix](https://github.com/vllm-project/vllm/pull/65029), [thinking_token_budget fix](https://github.com/vllm-project/vllm/pull/66056)
+- **[Docling](https://github.com/docling-project/docling-core)** - Document processing toolkit. [Keep whitespace-only lines inside a WebVTT cue](https://github.com/docling-project/docling-core/pull/975) (merged), [keep the line break after a span end tag](https://github.com/docling-project/docling-core/pull/1029), [keep whitespace at the edges of cue text](https://github.com/docling-project/docling-core/pull/1030)
 - **[DSPy](https://github.com/stanfordnlp/dspy)** - Framework for programming language models. [XMLAdapter list handling fix](https://github.com/stanfordnlp/dspy/pull/10761)
-- **[docling-core](https://github.com/docling-project/docling-core)** - Document processing toolkit. [Keep whitespace-only lines inside a WebVTT cue](https://github.com/docling-project/docling-core/pull/975)
-- **[LangChain Deep Agents](https://github.com/langchain-ai/deepagents)** - Agent harness. [Turn off server log colors so dcode starts on Windows](https://github.com/langchain-ai/deepagents/pull/7591) (merged), [find editor launchers like `code.cmd` on Windows](https://github.com/langchain-ai/deepagents/pull/7642) (merged). Bug report: [CRLF line endings](https://github.com/langchain-ai/deepagents/issues/7488)
 
 See all of my [pull requests](https://github.com/pulls?q=is%3Apr+author%3AArsh624).
 
