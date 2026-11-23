@@ -15,17 +15,17 @@ I work on LLM inference serving, GPU and distributed systems, the backend and Ku
 - Software Development Intern at **EcoServants**, building backend features on a PHP/MySQL platform for an environmental nonprofit.
 - Contributing to open source, with fixes merged into **vLLM**, **LangChain Deep Agents**, **sqlfluff**, **prime-rl** and **Docling**, plus open work in **DSPy**.
 - Building **Kith**, a multi-agent platform behind a provider-agnostic inference gateway, and **Kube-Op-Lite**, a Kubernetes operator for GPU workloads.
-- Shipped this month: **[Agentwall](https://github.com/Arsh624/agentwall)** (v0.1.1), a local firewall that stops MCP agents from leaking private data, and **[ros2-gpu-pointcloud](https://github.com/Arsh624/ros2-gpu-pointcloud)** (v0.2.0), a ROS 2 point-cloud filter with C++, OpenMP and CUDA backends.
+- Shipped this month: **[Agentwall](https://github.com/Arsh624/agentwall)** (v0.3.0), a local firewall that stops MCP agents from leaking private data, and **[ros2-gpu-pointcloud](https://github.com/Arsh624/ros2-gpu-pointcloud)** (v0.2.0), a ROS 2 point-cloud filter with C++, OpenMP and CUDA backends.
 
 ---
 
 ## Open Source
 
-Active in six open source repos, with fixes merged into five of them (vLLM, LangChain Deep Agents, sqlfluff, prime-rl and Docling):
+Active in six open source repos, with 9 fixes merged into five of them (vLLM, LangChain Deep Agents, sqlfluff, prime-rl and Docling):
 
 - **[vLLM](https://github.com/vllm-project/vllm)** - LLM serving engine. [Report the line of a run-batch request rejected by validators](https://github.com/vllm-project/vllm/pull/65029) (merged), [accept NumPy images in vLLM's own HF processors](https://github.com/vllm-project/vllm/pull/68655) (merged), [thinking_token_budget fix](https://github.com/vllm-project/vllm/pull/66056), [keep reasoning-token logprobs out of Responses output_text](https://github.com/vllm-project/vllm/pull/67546)
 - **[LangChain Deep Agents](https://github.com/langchain-ai/deepagents)** - Agent harness. [Turn off server log colors so dcode starts on Windows](https://github.com/langchain-ai/deepagents/pull/7591) (merged), [find editor launchers like `code.cmd` on Windows](https://github.com/langchain-ai/deepagents/pull/7642) (merged). Bug report: [CRLF line endings](https://github.com/langchain-ai/deepagents/issues/7488)
-- **[sqlfluff](https://github.com/sqlfluff/sqlfluff)** - SQL linter and formatter. [LT01: don't join two words when removing whitespace](https://github.com/sqlfluff/sqlfluff/pull/9008) (merged), [don't respace SparkSQL and Databricks named parameters](https://github.com/sqlfluff/sqlfluff/pull/9030)
+- **[sqlfluff](https://github.com/sqlfluff/sqlfluff)** - SQL linter and formatter. [LT01: don't join two words when removing whitespace](https://github.com/sqlfluff/sqlfluff/pull/9008) (merged), [don't respace SparkSQL and Databricks named parameters](https://github.com/sqlfluff/sqlfluff/pull/9030) (merged), [stop adding a space before Databricks IDENTIFIER brackets](https://github.com/sqlfluff/sqlfluff/pull/9280) (merged)
 - **[prime-rl](https://github.com/PrimeIntellect-ai/prime-rl)** - Agentic RL training at scale. [Skip NUMA binding when the GPU has no sysfs `numa_node`](https://github.com/PrimeIntellect-ai/prime-rl/pull/4202) (merged), [trainer loss logging fix](https://github.com/PrimeIntellect-ai/prime-rl/pull/4352)
 - **[Docling](https://github.com/docling-project/docling-core)** - Document processing toolkit. [Keep whitespace-only lines inside a WebVTT cue](https://github.com/docling-project/docling-core/pull/975) (merged), [keep the line break after a span end tag](https://github.com/docling-project/docling-core/pull/1029), [keep whitespace at the edges of cue text](https://github.com/docling-project/docling-core/pull/1030)
 - **[DSPy](https://github.com/stanfordnlp/dspy)** - Framework for programming language models. [XMLAdapter list handling fix](https://github.com/stanfordnlp/dspy/pull/10761)
@@ -55,11 +55,11 @@ Kafka and Spark ETL landing 5M+ records a day, with Prometheus and Grafana alert
 
 **[Agentwall – AI Agent Firewall](https://github.com/Arsh624/agentwall)**
 
-Local firewall between AI agents and their MCP servers. Tracks taint per session to block lethal-trifecta data leaks, keeps API keys in a vault, pins tool definitions, and writes a hash-chained audit log. Blocks 5 of 5 attacks in its suite and adds about 0.2 ms per call at p99.
+Local firewall between AI agents and their MCP servers. Tracks taint per session to block lethal-trifecta data leaks, keeps API keys in a vault, pins tool definitions, and writes a signed, hash-chained audit log. Asks for approval inside Claude Code, installs as a Claude Code plugin, and has its core rules model-checked in TLA+. Blocks 9 of 9 attacks in its suite and adds about 0.2 ms per call at p99.
 
 ![](https://img.shields.io/badge/AGENT%20SECURITY%20%7C%20MCP%20%7C%20PROMPT%20INJECTION-791F1F?style=flat-square&color=791F1F)
 
-`Go` `MCP` `JSON-RPC` `GoReleaser`
+`Go` `MCP` `JSON-RPC` `TLA+` `GoReleaser`
 
 </td>
 <td width="50%" valign="top">
